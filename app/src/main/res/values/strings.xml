@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Login and SignUp</string>
+    <string name="login_slash_text">Login and Registration Using Firebase Authentication…</string>
+    <string name="app_dev">App Design and Develop By Sagar Dhadke</string>
+    <string name="splash_screen_logo">Splash Screen Logo</string>
+    <string name="login_to_your_account">Login to Your Account</string>
+    <string name="email">Email</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_in_txt">Sign In</string>
+    <string name="already_have_account">Already Have Account?</string>
+</resources>
