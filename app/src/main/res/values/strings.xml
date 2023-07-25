@@ -10,4 +10,7 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="sign_in_txt">Sign In</string>
     <string name="already_have_account">Already Have Account?</string>
+
+
+    <string name="sign_up">Sign up</string>
 </resources>
