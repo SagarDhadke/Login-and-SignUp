@@ -13,4 +13,21 @@
 
 
     <string name="sign_up">Sign up</string>
+    <string name="todo">TODO</string>
+    <string name="email_id">Email ID</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="full_name">Full name</string>
+    <string name="telephone_number">Mobile</string>
+    <string name="male">Male</string>
+    <string name="register">Register</string>
+    <string name="female">Female</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="by_signing_up_re_agree_to_oue">By signing up,You are agree to our</string>
+    <string name="and">and</string>
+    <string name="skip">Skip</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
 </resources>

@@ -11,5 +11,7 @@
     
     <color name="background">#FDFDFE</color>
     <color name="text_color">#000000</color>
+    <color name="icon_bg">#6D6D6D</color>
+    <color name="view_bg">#1A0C1318</color>
     
 </resources>

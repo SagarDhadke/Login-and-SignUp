@@ -62,7 +62,7 @@
                             android:contentDescription="@string/todo"
                             android:padding="@dimen/_3sdp"
                             android:src="@drawable/photo_camera"
-                            app:tint="?ns_bg" />
+                            app:tint="@color/background" />
 
                     </RelativeLayout>
 
@@ -83,7 +83,7 @@
                     android:contentDescription="@string/todo"
                     android:padding="@dimen/_9sdp"
                     android:src="@drawable/ic_email"
-                    app:tint="?ns_title_sub" />
+                    app:tint="@color/icon_bg" />
 
                 <EditText
                     android:id="@+id/et_register_email"
@@ -95,8 +95,8 @@
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:padding="@dimen/_5sdp"
-                    android:textColor="?ns_title"
-                    android:textColorHint="?ns_title_sub"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="@color/icon_bg"
                     android:textSize="@dimen/_12ssp" />
 
             </LinearLayout>
@@ -105,7 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginStart="@dimen/_35sdp"
-                android:background="?ns_border" />
+                android:background="@color/view_bg" />
 
             <LinearLayout
                 android:layout_marginTop="@dimen/_10sdp"
@@ -120,7 +120,7 @@
                     android:contentDescription="@string/todo"
                     android:padding="@dimen/_9sdp"
                     android:src="@drawable/ic_profile"
-                    app:tint="?ns_title_sub" />
+                    app:tint="@color/icon_bg" />
 
                 <EditText
                     android:id="@+id/et_register_full_name"
@@ -132,8 +132,8 @@
                     android:inputType="textPersonName"
                     android:maxLines="1"
                     android:padding="@dimen/_5sdp"
-                    android:textColor="?ns_title"
-                    android:textColorHint="?ns_title_sub"
+                    android:textColor="#161616"
+                    android:textColorHint="@color/icon_bg"
                     android:textSize="@dimen/_12ssp" />
 
             </LinearLayout>
@@ -142,7 +142,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginStart="@dimen/_35sdp"
-                android:background="?ns_border" />
+                android:background="@color/view_bg" />
 
             <LinearLayout
                 android:layout_marginTop="@dimen/_10sdp"
@@ -152,12 +152,12 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="@dimen/_35sdp"
+                    android:layout_width="28dp"
                     android:layout_height="@dimen/_35sdp"
                     android:contentDescription="@string/todo"
                     android:padding="@dimen/_9sdp"
                     android:src="@drawable/ic_call"
-                    app:tint="?ns_title_sub" />
+                    app:tint="@color/icon_bg" />
 
                 <EditText
                     android:id="@+id/et_register_telephone"
@@ -169,8 +169,8 @@
                     android:inputType="phone"
                     android:maxLines="1"
                     android:padding="@dimen/_5sdp"
-                    android:textColor="?ns_title"
-                    android:textColorHint="?ns_title_sub"
+                    android:textColor="#161616"
+                    android:textColorHint="@color/icon_bg"
                     android:textSize="@dimen/_12ssp" />
 
             </LinearLayout>
@@ -179,7 +179,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginStart="@dimen/_35sdp"
-                android:background="?ns_border" />
+                android:background="@color/view_bg" />
 
             <LinearLayout
                 android:layout_marginTop="@dimen/_10sdp"
@@ -194,7 +194,7 @@
                     android:contentDescription="@string/todo"
                     android:padding="@dimen/_9sdp"
                     android:src="@drawable/ic_lock"
-                    app:tint="?ns_title_sub" />
+                    app:tint="@color/icon_bg" />
 
                 <EditText
                     android:id="@+id/et_register_password"
@@ -206,8 +206,8 @@
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:padding="@dimen/_5sdp"
-                    android:textColor="?ns_title"
-                    android:textColorHint="?ns_title_sub"
+                    android:textColor="#161616"
+                    android:textColorHint="@color/icon_bg"
                     android:textSize="@dimen/_12ssp" />
 
             </LinearLayout>
@@ -216,7 +216,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginStart="@dimen/_35sdp"
-                android:background="?ns_border" />
+                android:background="@color/view_bg" />
 
             <LinearLayout
                 android:layout_marginTop="@dimen/_10sdp"
@@ -231,7 +231,7 @@
                     android:contentDescription="@string/todo"
                     android:padding="@dimen/_9sdp"
                     android:src="@drawable/ic_lock"
-                    app:tint="?ns_title_sub" />
+                    app:tint="@color/icon_bg" />
 
                 <EditText
                     android:id="@+id/et_register_confirm_password"
@@ -243,8 +243,8 @@
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:padding="@dimen/_5sdp"
-                    android:textColor="?ns_title"
-                    android:textColorHint="?ns_title_sub"
+                    android:textColor="#161616"
+                    android:textColorHint="@color/icon_bg"
                     android:textSize="@dimen/_12ssp" />
 
             </LinearLayout>
@@ -253,7 +253,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_1sdp"
                 android:layout_marginStart="@dimen/_35sdp"
-                android:background="?ns_border" />
+                android:background="@color/view_bg" />
 
             <RadioGroup
                 android:id="@+id/radioGrp"
@@ -271,7 +271,7 @@
                     android:paddingEnd="@dimen/_15sdp"
                     android:text="@string/male"
                     android:textAlignment="viewStart"
-                    android:textColor="?ns_title_sub" />
+                    android:textColor="@color/icon_bg" />
 
                 <RadioButton
                     android:id="@+id/rd_female"
@@ -283,7 +283,7 @@
                     android:paddingEnd="@dimen/_15sdp"
                     android:text="@string/female"
                     android:textAlignment="viewStart"
-                    android:textColor="?ns_title_sub" />
+                    android:textColor="@color/icon_bg" />
 
             </RadioGroup>
 
@@ -291,7 +291,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/by_signing_up_re_agree_to_oue"
-                android:textColor="?ns_title_sub"
+                android:textColor="@color/icon_bg"
                 android:textSize="@dimen/_11ssp"
                 android:layout_marginTop="@dimen/_8sdp"/>
 
@@ -309,14 +309,14 @@
                     android:layout_marginEnd="@dimen/_5sdp"
                     android:background="?attr/selectableItemBackground"
                     android:text="@string/terms_and_conditions"
-                    android:textColor="?ns_accent"
+                    android:textColor="#F44336"
                     android:textSize="@dimen/_11ssp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/and"
-                    android:textColor="?ns_title_sub"
+                    android:textColor="@color/icon_bg"
                     android:textSize="@dimen/_11ssp" />
 
                 <TextView
@@ -327,7 +327,7 @@
                     android:layout_marginEnd="@dimen/_5sdp"
                     android:background="?attr/selectableItemBackground"
                     android:text="@string/privacy_policy"
-                    android:textColor="?ns_accent"
+                    android:textColor="#F44336"
                     android:textSize="@dimen/_11ssp" />
 
             </LinearLayout>
@@ -340,7 +340,7 @@
                 android:background="@drawable/bg_login_google_btn"
                 android:gravity="center"
                 android:text="@string/register"
-                android:textColor="?ns_accent"
+                android:textColor="#F44336"
                 android:textSize="@dimen/_13ssp"
                 android:textStyle="bold" />
 
@@ -357,7 +357,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/already_have_an_account"
-                    android:textColor="?ns_title_sub"
+                    android:textColor="@color/text_color"
                     android:textSize="@dimen/_11sdp" />
 
                 <TextView
